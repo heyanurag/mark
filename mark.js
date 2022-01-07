@@ -8,15 +8,15 @@ const fd_pending = `${__dirname}/task.txt`;
 const fd_done = `${__dirname}/completed.txt`;
 
 let usage = `Usage :-
-$ ./task add 2 hello world          # Add a new item with priority 2 and text "hello world" to the list
-$ ./task ls                         # Show incomplete priority list items sorted by priority in ascending order
-$ ./task del INDEX                  # Delete the incomplete item with the given index
-$ ./task done INDEX                 # Mark the incomplete item with the given index as complete
-$ ./task help                       # Show usage
-$ ./task report                     # Statistics
-$ ./task update INDEX 0 new_text    # Update an item's priority and/or text with the given index
-                                      0 is the new priority of that task & new_text is the new text for the task
-                                      if no new_text is provided, only the priority is updated`;
+$ ./mark.sh add 2 hello world          # Add a new item with priority 2 and text "hello world" to the list.
+$ ./mark.sh ls                         # Show incomplete priority list items sorted by priority in ascending order.
+$ ./mark.sh del INDEX                  # Delete the incomplete item with the given index.
+$ ./mark.sh done INDEX                 # Mark the incomplete item with the given index as complete.
+$ ./mark.sh help                       # Show usage.
+$ ./mark.sh report                     # Statistics.
+$ ./mark.sh update INDEX 0 new_text    # Update an item's priority and/or text with the given index.
+                                         Here, 0 is the new priority of that task & new_text is the new text for the task.
+                                         If no new_text is provided, only the priority is updated.`;
 
 /**
  * Creation of txt files if do not exist

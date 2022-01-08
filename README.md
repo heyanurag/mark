@@ -14,4 +14,4 @@ I created this CLI to learn NodeJS and file-system module.
 
 ![Try out the `./mark.sh help` command](./sample.png)
 
-Try it out on codesandbox here.
+![Checkout the repl here](https://replit.com/@singhanurag/mark?v=1)
